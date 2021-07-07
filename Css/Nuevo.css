@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(201, 231, 179);
+}
+
+
+.inicio{
+    clear: both;
+    display: table;
+    background: rgba(57, 141, 1, 1);
+    position: fixed;
+    width: 99%;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+header #header-logo{
+    width: 30%;
+    background-position: center;
+    float: left;
+}
+
+header #atajos{
+    color: black;
+    display: block;
+    position: relative;
+	top: 20px;
+	left: 1%;
+	width: 65%;
+	height: 100px;
+    float: right;
+}
+ul li{
+    display: inline;
+    font-size: 1.3em;
+    padding: 10px;
+
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+menu{
+    clear: both;
+    margin-top: 100px;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor .Registro{
+    float: left;
+    width: 60%;
+    margin-right: 1.5%;
+    
+    
+}
+.titulos{
+    text-align: center;
+}
+#nombre,#direccion,#correo,#mensaje{
+    width: 60%;
+    margin: 5px 30px;
+    padding: 15px 20px;
+    background: #23648d;   
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #15a4fa;
+    font-family: cursive ;
+    font-weight: 500;
+    
+}
+#mensaje{
+    height: 150px;
+    max-height: 150px;
+    width: 70%;
+    max-width: 100%;
+    min-height: 150px;
+    text-align: justify;
+}
+#nombre,#direccion,#correo,#mensaje,::placeholder{
+    color: black;
+    
+}
+.derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+.botonderecha{
+    display: block;
+    width: 100px;
+    margin: 10px 50px;
+    padding: 15px 20px;
+    background: #23648d;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer; 
+   }
+   .botonderecha:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+aside{
+    width: 38.50%;
+    height: 200px;
+    margin: 0px 0px;
+    background-color: blue;
+    color: cornsilk;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
